@@ -30,8 +30,23 @@
       
       // Optional: preview_id used when running `wrangler dev` for local dev 
 	//  "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
-    }
-  ] 
+	}
+  ],
+  "d1_databases": [
+	{
+		"binding": "DB",
+		"database_id": "c3258ca5-1470-48bf-a32b-e1a9d2ac3e53",
+	}
+  ],
+
+  // Uncomment the following lines if you have Durable Objects or R2 bindings
+  // "durable_objects": {
+  //   "bindings": [
+  //     { "name": "MY_OBJECT", "class_name": "MyObject" }
+  //   ]
+  // },
+  // "r2_buckets": [{ "binding": "MY_BUCKET", "bucket_name": "my-bucket" }],
+	}
 
 	/**
 	 * Environment Variables
@@ -53,5 +68,4 @@
 	 * Service Bindings (communicate between multiple Workers)
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
-	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
-}
+// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
