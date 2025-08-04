@@ -28,11 +28,11 @@
       "binding": "KV",
       "id": "5fe7b0b898ed4181ae1818a48fb04ca1",
       
-      // Optional: preview_id used when running `wrangler dev` for local dev
-      "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
+      // Optional: preview_id used when running `wrangler dev` for local dev 
+	//  "preview_id": "<ID_OF_PREVIEW_KV_NAMESPACE_FOR_LOCAL_DEVELOPMENT>"
     }
   ] 
-  
+
 	/**
 	 * Environment Variables
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
